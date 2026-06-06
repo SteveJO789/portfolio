@@ -47,5 +47,16 @@ The first version was built from inspected local projects under `C:\Work`, inclu
 - `Envi`
 - `Fastwork`
 - `Bussiness\plaatformporjects\APP`
+- Google Drive work archive: `https://drive.google.com/drive/u/0/folders/1rIw2zJthrkPAtGQRgqlckVNQNxY6OCW_`
 
-Update `mailto:your-email@example.com` in `index.html` before publishing publicly.
+Drive media handling:
+
+- JPG and HEIC image files are stored under `assets/drive/`.
+- JPG images are embedded directly in the archive section.
+- HEIC images are linked as local files because browser support is inconsistent.
+- Full videos stay as Google Drive links to keep the GitHub Pages site lightweight.
+
+Contact links currently point to:
+
+- GitHub: `https://github.com/SteveJO789`
+- Fastwork: `https://fastwork.co/user/roymustang`

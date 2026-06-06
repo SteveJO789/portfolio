@@ -2,11 +2,12 @@ const dictionary = {
   en: {
     "brand.role": "Computer / Robotics / AI / IoT Engineer",
     "nav.work": "Work",
+    "nav.archive": "Archive",
     "nav.systems": "Systems",
     "nav.about": "About",
     "nav.contact": "Contact",
-    "hero.eyebrow": "Portfolio built from live local work",
-    "hero.title": "Engineering practical AI, IoT, and automation systems from prototype to deployable product.",
+    "hero.eyebrow": "",
+    "hero.title": "Pipat Sassana's portfolio pages",
     "hero.text":
       "I am a Thai computer, robotics, AI, and IoT engineer moving toward entrepreneurship. My work connects sensors, dashboards, LINE bots, document automation, and cloud deployment into usable systems.",
     "hero.primary": "View case studies",
@@ -46,6 +47,14 @@ const dictionary = {
     "project.platform.1": "Monorepo with pnpm, Turborepo, Vite, React, React Native",
     "project.platform.2": "ESP32-C3, DHT22, relay control, telemetry and RPC concept",
     "project.platform.3": "Premium dashboard direction on top of ThingsBoard CE",
+    "archive.eyebrow": "Drive work archive",
+    "archive.title": "Field photos and prototype videos from recent work.",
+    "archive.text":
+      "This Google Drive folder contains supporting media from hands-on work. JPG photos are embedded directly in this page, while full videos stay as Drive links to keep the portfolio fast.",
+    "archive.folder": "Open Drive folder",
+    "archive.stat.files": "image files embedded",
+    "archive.stat.images": "JPG previews",
+    "archive.stat.videos": "video links kept on Drive",
     "systems.eyebrow": "System strengths",
     "systems.title": "Where the work compounds",
     "cap.ai.title": "AI product workflows",
@@ -62,18 +71,19 @@ const dictionary = {
       "I like building systems that connect software with real-world operations: sensors to dashboards, chat apps to finance workflows, and documents to business process. My next direction is turning this engineering range into focused products that solve practical problems for Thai freelancers, small businesses, and technical teams.",
     "contact.eyebrow": "Contact",
     "contact.title": "Open to product, automation, AI, IoT, and robotics work.",
-    "contact.github": "GitHub",
-    "contact.email": "Email placeholder",
-    "footer.source": "Built from inspected local projects in C:\\Work."
+    "contact.github": "GitHub: SteveJO789",
+    "contact.fastwork": "Fastwork: roymustang",
+    "footer.source": ""
   },
   th: {
     "brand.role": "วิศวกร Computer / Robotics / AI / IoT",
     "nav.work": "ผลงาน",
+    "nav.archive": "คลังงาน",
     "nav.systems": "ระบบ",
     "nav.about": "เกี่ยวกับ",
     "nav.contact": "ติดต่อ",
-    "hero.eyebrow": "พอร์ตโฟลิโอจากงานจริงในเครื่อง",
-    "hero.title": "สร้างระบบ AI, IoT และ Automation ที่ใช้งานได้จริง ตั้งแต่ต้นแบบจนพร้อม deploy.",
+    "hero.eyebrow": "",
+    "hero.title": "Pipat Sassana's portfolio pages",
     "hero.text":
       "ผมเป็นวิศวกรไทยสาย Computer, Robotics, AI และ IoT ที่กำลังพัฒนาไปสู่การเป็นผู้ประกอบการ งานของผมเชื่อม sensor, dashboard, LINE bot, document automation และ cloud deployment ให้เป็นระบบที่ใช้งานได้จริง",
     "hero.primary": "ดู case studies",
@@ -113,6 +123,14 @@ const dictionary = {
     "project.platform.1": "Monorepo ด้วย pnpm, Turborepo, Vite, React, React Native",
     "project.platform.2": "ESP32-C3, DHT22, relay control, telemetry และ RPC concept",
     "project.platform.3": "วางทิศทาง premium dashboard บน ThingsBoard CE",
+    "archive.eyebrow": "คลังผลงานจาก Drive",
+    "archive.title": "รูปหน้างานและวิดีโอต้นแบบจากงานล่าสุด.",
+    "archive.text":
+      "โฟลเดอร์ Google Drive นี้มีสื่อประกอบจากงานลงมือจริง รูป JPG ถูกฝังไว้ในหน้านี้โดยตรง ส่วนวิดีโอเต็มยังเป็นลิงก์ Drive เพื่อให้ portfolio โหลดเร็ว",
+    "archive.folder": "เปิดโฟลเดอร์ Drive",
+    "archive.stat.files": "ไฟล์ภาพที่ฝังแล้ว",
+    "archive.stat.images": "ภาพ JPG preview",
+    "archive.stat.videos": "วิดีโอเป็นลิงก์ Drive",
     "systems.eyebrow": "จุดแข็งด้านระบบ",
     "systems.title": "จุดที่ทักษะหลายด้านมารวมกัน",
     "cap.ai.title": "AI product workflows",
@@ -129,9 +147,9 @@ const dictionary = {
       "ผมชอบสร้างระบบที่เชื่อม software กับงานจริง เช่น sensor ไป dashboard, chat app ไป finance workflow และเอกสารไป business process ทิศทางต่อไปคือเปลี่ยนความสามารถด้าน engineering ให้เป็น product ที่แก้ปัญหาจริงสำหรับ freelancer ธุรกิจเล็ก และทีมเทคนิค",
     "contact.eyebrow": "ติดต่อ",
     "contact.title": "เปิดรับงานด้าน product, automation, AI, IoT และ robotics.",
-    "contact.github": "GitHub",
-    "contact.email": "อีเมล placeholder",
-    "footer.source": "สร้างจากโปรเจกต์จริงที่ตรวจใน C:\\Work."
+    "contact.github": "GitHub: SteveJO789",
+    "contact.fastwork": "Fastwork: roymustang",
+    "footer.source": ""
   }
 };
 
