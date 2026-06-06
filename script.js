@@ -51,6 +51,8 @@ const dictionary = {
     "project.platform.1": "Monorepo with pnpm, Turborepo, Vite, React, React Native",
     "project.platform.2": "ESP32-C3, DHT22, relay control, telemetry and RPC concept",
     "project.platform.3": "Premium dashboard direction on top of ThingsBoard CE",
+    "work.cta.text": "Need automation, AI, IoT, or robotics support for a real project?",
+    "work.cta.button": "Start on Fastwork",
     "archive.eyebrow": "Drive work archive",
     "archive.title": "Field photos and prototype videos from recent work.",
     "archive.text":
@@ -75,6 +77,8 @@ const dictionary = {
     "cap.cloud.text": "Cloudflare Pages, Workers, Functions, D1, R2, GitHub Pages, VPS deployment, Docker, and PostgreSQL persistence.",
     "cap.biz.title": "Business automation",
     "cap.biz.text": "Thai document workflows, freelance accounting details, personal finance UX, safety policies, and operational reporting.",
+    "systems.cta.text": "Want these skills applied to your own workflow or product?",
+    "systems.cta.button": "Discuss a project on Fastwork",
     "about.eyebrow": "About",
     "about.title": "Engineer now, entrepreneur next.",
     "about.text":
@@ -140,6 +144,8 @@ const dictionary = {
     "project.platform.1": "Monorepo ด้วย pnpm, Turborepo, Vite, React, React Native",
     "project.platform.2": "ESP32-C3, DHT22, relay control, telemetry และ RPC concept",
     "project.platform.3": "วางทิศทาง premium dashboard บน ThingsBoard CE",
+    "work.cta.text": "ต้องการคนช่วยงาน automation, AI, IoT หรือ robotics สำหรับโปรเจกต์จริงไหม",
+    "work.cta.button": "เริ่มคุยงานบน Fastwork",
     "archive.eyebrow": "คลังผลงานจาก Drive",
     "archive.title": "รูปหน้างานและวิดีโอต้นแบบจากงานล่าสุด.",
     "archive.text":
@@ -158,6 +164,8 @@ const dictionary = {
     "cap.cloud.text": "Cloudflare Pages, Workers, Functions, D1, R2, GitHub Pages, VPS deployment, Docker และ PostgreSQL persistence",
     "cap.biz.title": "Business automation",
     "cap.biz.text": "Workflow เอกสารไทย รายละเอียดบัญชีฟรีแลนซ์ UX การเก็บรายจ่าย safety policies และ operational reporting",
+    "systems.cta.text": "อยากนำทักษะเหล่านี้ไปใช้กับ workflow หรือ product ของคุณไหม",
+    "systems.cta.button": "คุยโปรเจกต์บน Fastwork",
     "about.eyebrow": "เกี่ยวกับ",
     "about.title": "ตอนนี้เป็นวิศวกร เป้าหมายต่อไปคือผู้ประกอบการ.",
     "about.text":
