@@ -43,50 +43,20 @@
             dashboards, LINE bots, document automation, and cloud deployment into usable systems.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#work" data-i18n="hero.primary">View case studies</a>
-            <a class="button secondary" href="#contact" data-i18n="hero.secondary">Get in touch</a>
+            <a class="button primary" href="https://fastwork.co/user/roymustang" target="_blank" rel="noreferrer" data-i18n="hero.fastwork">Hire me on Fastwork</a>
+            <a class="button secondary" href="#work" data-i18n="hero.work">View case studies</a>
           </div>
         </div>
-        <div class="hero-visual" aria-label="Engineering system map">
-          <svg viewBox="0 0 760 620" role="img" aria-labelledby="systemMapTitle">
-            <title id="systemMapTitle">System map connecting AI, IoT, finance automation, and documents</title>
-            <defs>
-              <linearGradient id="panelGlow" x1="0" x2="1" y1="0" y2="1">
-                <stop offset="0" stop-color="#7dd3fc" />
-                <stop offset="0.52" stop-color="#facc15" />
-                <stop offset="1" stop-color="#fb7185" />
-              </linearGradient>
-            </defs>
-            <rect x="40" y="36" width="680" height="548" rx="26" class="map-shell" />
-            <path d="M146 176 C252 82 464 76 594 172 C690 244 672 404 574 474 C440 570 244 536 148 426 C74 340 72 238 146 176Z" class="map-loop" />
-            <g class="map-node node-main">
-              <circle cx="378" cy="304" r="86" />
-              <text x="378" y="292">Pipat</text>
-              <text x="378" y="326">Engineer</text>
-            </g>
-            <g class="map-node">
-              <circle cx="178" cy="188" r="64" />
-              <text x="178" y="182">IoT</text>
-              <text x="178" y="208">Sensors</text>
-            </g>
-            <g class="map-node">
-              <circle cx="590" cy="190" r="64" />
-              <text x="590" y="184">AI</text>
-              <text x="590" y="210">Ops</text>
-            </g>
-            <g class="map-node">
-              <circle cx="172" cy="448" r="64" />
-              <text x="172" y="442">Thai</text>
-              <text x="172" y="468">Docs</text>
-            </g>
-            <g class="map-node">
-              <circle cx="594" cy="448" r="64" />
-              <text x="594" y="442">LINE</text>
-              <text x="594" y="468">Finance</text>
-            </g>
-            <path d="M240 206 L302 262 M516 206 L454 262 M240 430 L304 350 M516 430 L454 350" class="map-link" />
-          </svg>
-        </div>
+        <figure class="hero-visual" aria-label="Engineering work photos">
+          <div class="hero-photo-stack">
+            <img class="hero-photo main-photo" src="assets/drive/img-3288.jpg" alt="Field prototype photo from Pipat's work archive" />
+            <img class="hero-photo inset-photo" src="assets/drive/img-3358.jpg" alt="Hardware and prototype detail from the work archive" />
+          </div>
+          <figcaption>
+            <span data-i18n="hero.visual.kicker">Prototype evidence</span>
+            <strong data-i18n="hero.visual.title">Hardware, automation, and field work archive</strong>
+          </figcaption>
+        </figure>
       </section>
 
       <section class="section proof-strip" aria-label="Evidence summary">
@@ -223,8 +193,12 @@
             <span data-i18n="archive.stat.videos">video links kept on Drive</span>
           </div>
         </div>
+        <div class="media-section-heading">
+          <h3 data-i18n="archive.photos.title">Featured JPG previews</h3>
+          <p data-i18n="archive.photos.text">Embedded images keep the page visual and fast.</p>
+        </div>
         <div class="media-grid image-grid">
-          <a class="media-preview" href="assets/drive/img-3285.jpg">
+          <a class="media-preview featured-media" href="assets/drive/img-3285.jpg">
             <img src="assets/drive/img-3285.jpg" alt="Drive archive photo IMG 3285" loading="lazy" />
             <span>JPG</span>
             <strong>IMG_3285</strong>
@@ -249,6 +223,12 @@
             <span>JPG</span>
             <strong>IMG_3359</strong>
           </a>
+        </div>
+        <div class="media-section-heading compact">
+          <h3 data-i18n="archive.heic.title">Original HEIC files</h3>
+          <p data-i18n="archive.heic.text">Linked as originals because browser preview support is inconsistent.</p>
+        </div>
+        <div class="heic-link-grid">
           <a class="media-tile image" href="assets/drive/img-2373.heic">
             <span>HEIC</span>
             <strong>IMG_2373</strong>
@@ -261,6 +241,10 @@
             <span>HEIC</span>
             <strong>IMG_2299</strong>
           </a>
+        </div>
+        <div class="media-section-heading compact">
+          <h3 data-i18n="archive.videos.title">Prototype video links</h3>
+          <p data-i18n="archive.videos.text">Full videos stay on Drive so the portfolio remains lightweight.</p>
         </div>
         <div class="video-link-grid" aria-label="Video links">
           <a class="media-tile video" href="https://drive.google.com/file/d/1ox7dmDdPAEOoFfMDRAfEqA2X7WCA2whT/view?usp=drivesdk" target="_blank" rel="noreferrer">
@@ -340,9 +324,29 @@
           <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
           <h2 data-i18n="contact.title">Open to product, automation, AI, IoT, and robotics work.</h2>
         </div>
-        <div class="contact-actions">
-          <a class="button primary" href="https://github.com/SteveJO789" target="_blank" rel="noreferrer" data-i18n="contact.github">GitHub</a>
-          <a class="button secondary" href="https://fastwork.co/user/roymustang" target="_blank" rel="noreferrer" data-i18n="contact.fastwork">Fastwork</a>
+        <div class="contact-panel">
+          <div class="fastwork-profile">
+            <span data-i18n="fastwork.badge">Fastwork profile</span>
+            <h3 data-i18n="fastwork.title">roymustang, professional freelancer</h3>
+            <p data-i18n="fastwork.text">
+              The best place to start a paid project with me is Fastwork. My profile is set up for client conversations,
+              scope discussion, hiring flow, and platform-backed work records.
+            </p>
+            <dl>
+              <div>
+                <dt data-i18n="fastwork.stat.hires">Hired on Fastwork</dt>
+                <dd>45</dd>
+              </div>
+              <div>
+                <dt data-i18n="fastwork.stat.focus">Good fit for</dt>
+                <dd data-i18n="fastwork.stat.focus.value">AI, automation, IoT, robotics, and technical systems</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="https://fastwork.co/user/roymustang" target="_blank" rel="noreferrer" data-i18n="contact.fastwork">Fastwork: roymustang</a>
+            <a class="button secondary" href="https://github.com/SteveJO789" target="_blank" rel="noreferrer" data-i18n="contact.github">GitHub: SteveJO789</a>
+          </div>
         </div>
       </section>
     </main>

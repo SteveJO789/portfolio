@@ -10,8 +10,12 @@ const dictionary = {
     "hero.title": "Pipat Sassana's portfolio pages",
     "hero.text":
       "I am a Thai computer, robotics, AI, and IoT engineer moving toward entrepreneurship. My work connects sensors, dashboards, LINE bots, document automation, and cloud deployment into usable systems.",
+    "hero.visual.kicker": "Prototype evidence",
+    "hero.visual.title": "Hardware, automation, and field work archive",
     "hero.primary": "View case studies",
     "hero.secondary": "Get in touch",
+    "hero.fastwork": "Hire me on Fastwork",
+    "hero.work": "View case studies",
     "proof.projects": "active project areas inspected",
     "proof.stack": "stack families: AI, IoT, robotics, cloud, web, docs, QA, data",
     "proof.language": "bilingual communication and product copy",
@@ -55,6 +59,12 @@ const dictionary = {
     "archive.stat.files": "image files embedded",
     "archive.stat.images": "JPG previews",
     "archive.stat.videos": "video links kept on Drive",
+    "archive.photos.title": "Featured JPG previews",
+    "archive.photos.text": "Embedded images keep the page visual and fast.",
+    "archive.heic.title": "Original HEIC files",
+    "archive.heic.text": "Linked as originals because browser preview support is inconsistent.",
+    "archive.videos.title": "Prototype video links",
+    "archive.videos.text": "Full videos stay on Drive so the portfolio remains lightweight.",
     "systems.eyebrow": "System strengths",
     "systems.title": "Where the work compounds",
     "cap.ai.title": "AI product workflows",
@@ -73,6 +83,13 @@ const dictionary = {
     "contact.title": "Open to product, automation, AI, IoT, and robotics work.",
     "contact.github": "GitHub: SteveJO789",
     "contact.fastwork": "Fastwork: roymustang",
+    "fastwork.badge": "Fastwork profile",
+    "fastwork.title": "roymustang, professional freelancer",
+    "fastwork.text":
+      "The best place to start a paid project with me is Fastwork. My profile is set up for client conversations, scope discussion, hiring flow, and platform-backed work records.",
+    "fastwork.stat.hires": "Hired on Fastwork",
+    "fastwork.stat.focus": "Good fit for",
+    "fastwork.stat.focus.value": "AI, automation, IoT, robotics, and technical systems",
     "footer.source": ""
   },
   th: {
@@ -149,6 +166,15 @@ const dictionary = {
     "contact.title": "เปิดรับงานด้าน product, automation, AI, IoT และ robotics.",
     "contact.github": "GitHub: SteveJO789",
     "contact.fastwork": "Fastwork: roymustang",
+    "hero.fastwork": "\u0e08\u0e49\u0e32\u0e07\u0e07\u0e32\u0e19\u0e1c\u0e48\u0e32\u0e19 Fastwork",
+    "hero.work": "\u0e14\u0e39 case studies",
+    "fastwork.badge": "\u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c Fastwork",
+    "fastwork.title": "roymustang, \u0e1f\u0e23\u0e35\u0e41\u0e25\u0e19\u0e0b\u0e4c\u0e21\u0e37\u0e2d\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "fastwork.text":
+      "\u0e0a\u0e48\u0e2d\u0e07\u0e17\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e40\u0e23\u0e34\u0e48\u0e21\u0e07\u0e32\u0e19\u0e08\u0e49\u0e32\u0e07\u0e04\u0e37\u0e2d Fastwork \u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c\u0e19\u0e35\u0e49\u0e40\u0e2b\u0e21\u0e32\u0e30\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e38\u0e22\u0e02\u0e2d\u0e1a\u0e40\u0e02\u0e15\u0e07\u0e32\u0e19 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e02\u0e31\u0e49\u0e19\u0e15\u0e2d\u0e19\u0e08\u0e49\u0e32\u0e07 \u0e41\u0e25\u0e30\u0e40\u0e01\u0e47\u0e1a\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e07\u0e32\u0e19\u0e1a\u0e19\u0e41\u0e1e\u0e25\u0e15\u0e1f\u0e2d\u0e23\u0e4c\u0e21",
+    "fastwork.stat.hires": "\u0e08\u0e33\u0e19\u0e27\u0e19\u0e04\u0e23\u0e31\u0e49\u0e07\u0e17\u0e35\u0e48\u0e16\u0e39\u0e01\u0e08\u0e49\u0e32\u0e07\u0e1a\u0e19 Fastwork",
+    "fastwork.stat.focus": "\u0e40\u0e2b\u0e21\u0e32\u0e30\u0e01\u0e31\u0e1a\u0e07\u0e32\u0e19",
+    "fastwork.stat.focus.value": "AI, automation, IoT, robotics \u0e41\u0e25\u0e30\u0e23\u0e30\u0e1a\u0e1a\u0e40\u0e0a\u0e34\u0e07\u0e40\u0e17\u0e04\u0e19\u0e34\u0e04",
     "footer.source": ""
   }
 };
@@ -160,8 +186,9 @@ function setLanguage(lang) {
   document.documentElement.lang = lang;
   translatable.forEach((element) => {
     const key = element.dataset.i18n;
-    if (dictionary[lang][key]) {
-      element.textContent = dictionary[lang][key];
+    const value = dictionary[lang][key] || dictionary.en[key];
+    if (value) {
+      element.textContent = value;
     }
   });
   buttons.forEach((button) => {
