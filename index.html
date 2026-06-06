@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Bilingual portfolio for Pipat, a Thai Computer, Robotics, AI, and IoT engineer building practical automation products."
+    />
+    <title>Pipat | Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Pipat portfolio home">
+        <span class="brand-mark">P</span>
+        <span>
+          <strong>Pipat</strong>
+          <small data-i18n="brand.role">Computer / Robotics / AI / IoT Engineer</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#work" data-i18n="nav.work">Work</a>
+        <a href="#systems" data-i18n="nav.systems">Systems</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" class="lang-button active" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-button" data-lang="th" aria-pressed="false">TH</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Portfolio built from live local work</p>
+          <h1 data-i18n="hero.title">Engineering practical AI, IoT, and automation systems from prototype to deployable product.</h1>
+          <p class="hero-text" data-i18n="hero.text">
+            I am a Thai computer, robotics, AI, and IoT engineer moving toward entrepreneurship. My work connects sensors,
+            dashboards, LINE bots, document automation, and cloud deployment into usable systems.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work" data-i18n="hero.primary">View case studies</a>
+            <a class="button secondary" href="#contact" data-i18n="hero.secondary">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Engineering system map">
+          <svg viewBox="0 0 760 620" role="img" aria-labelledby="systemMapTitle">
+            <title id="systemMapTitle">System map connecting AI, IoT, finance automation, and documents</title>
+            <defs>
+              <linearGradient id="panelGlow" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#7dd3fc" />
+                <stop offset="0.52" stop-color="#facc15" />
+                <stop offset="1" stop-color="#fb7185" />
+              </linearGradient>
+            </defs>
+            <rect x="40" y="36" width="680" height="548" rx="26" class="map-shell" />
+            <path d="M146 176 C252 82 464 76 594 172 C690 244 672 404 574 474 C440 570 244 536 148 426 C74 340 72 238 146 176Z" class="map-loop" />
+            <g class="map-node node-main">
+              <circle cx="378" cy="304" r="86" />
+              <text x="378" y="292">Pipat</text>
+              <text x="378" y="326">Engineer</text>
+            </g>
+            <g class="map-node">
+              <circle cx="178" cy="188" r="64" />
+              <text x="178" y="182">IoT</text>
+              <text x="178" y="208">Sensors</text>
+            </g>
+            <g class="map-node">
+              <circle cx="590" cy="190" r="64" />
+              <text x="590" y="184">AI</text>
+              <text x="590" y="210">Ops</text>
+            </g>
+            <g class="map-node">
+              <circle cx="172" cy="448" r="64" />
+              <text x="172" y="442">Thai</text>
+              <text x="172" y="468">Docs</text>
+            </g>
+            <g class="map-node">
+              <circle cx="594" cy="448" r="64" />
+              <text x="594" y="442">LINE</text>
+              <text x="594" y="468">Finance</text>
+            </g>
+            <path d="M240 206 L302 262 M516 206 L454 262 M240 430 L304 350 M516 430 L454 350" class="map-link" />
+          </svg>
+        </div>
+      </section>
+
+      <section class="section proof-strip" aria-label="Evidence summary">
+        <div>
+          <strong>5+</strong>
+          <span data-i18n="proof.projects">active project areas inspected</span>
+        </div>
+        <div>
+          <strong>8</strong>
+          <span data-i18n="proof.stack">stack families: AI, IoT, robotics, cloud, web, docs, QA, data</span>
+        </div>
+        <div>
+          <strong>TH / EN</strong>
+          <span data-i18n="proof.language">bilingual communication and product copy</span>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="work.eyebrow">Selected work</p>
+          <h2 data-i18n="work.title">Projects with product thinking and engineering depth</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="card-top">
+              <span class="tag">LINE + AI + Cloudflare</span>
+              <span class="status" data-i18n="status.mvp">MVP hardening</span>
+            </div>
+            <h3>FastBill</h3>
+            <p data-i18n="project.fastbill">
+              A LINE-based personal finance tracker for freelancers and solo owners. Receipt photos become AI-extracted
+              pending records, then the user confirms or edits before saving.
+            </p>
+            <ul>
+              <li data-i18n="project.fastbill.1">Google Apps Script, Sheets, Drive, LINE Messaging API, LIFF</li>
+              <li data-i18n="project.fastbill.2">Cloudflare Pages/Functions migration and Workers + D1/R2 rewrite path</li>
+              <li data-i18n="project.fastbill.3">Jest and Node test coverage around validation and save flows</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <span class="tag">Next.js + Safety</span>
+              <span class="status" data-i18n="status.prototype">Internal prototype</span>
+            </div>
+            <h3>Operation Empathy Dashboard</h3>
+            <p data-i18n="project.redditbot">
+              A human-review dashboard for public-source research, opportunity scoring, risk checks, draft-only replies,
+              and internal reports without automated posting or DMs.
+            </p>
+            <ul>
+              <li data-i18n="project.redditbot.1">Next.js, TypeScript, Tailwind, Vitest, PostgreSQL server mode</li>
+              <li data-i18n="project.redditbot.2">CSV/JSON import, report exports, optional OpenRouter analysis</li>
+              <li data-i18n="project.redditbot.3">Explicit safety boundaries for read-only research and human approval</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <span class="tag">Thai Business Docs</span>
+              <span class="status" data-i18n="status.workflow">Workflow app</span>
+            </div>
+            <h3>Freelance Document Automation</h3>
+            <p data-i18n="project.docs">
+              A Thai freelance workflow for quotations, delivery notes, invoices, receipts, PromptPay QR, attachment
+              vaults, withholding tax, VAT alerts, and PDF generation.
+            </p>
+            <ul>
+              <li data-i18n="project.docs.1">Streamlit-style local app architecture with Python models and ReportLab PDFs</li>
+              <li data-i18n="project.docs.2">Audit-friendly document states and vault storage design</li>
+              <li data-i18n="project.docs.3">Thai document formatting and extracted-text verification workflow</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <span class="tag">ESP32 + Sensors</span>
+              <span class="status" data-i18n="status.hardware">Hardware + firmware</span>
+            </div>
+            <h3>Environmental IoT Station</h3>
+            <p data-i18n="project.envi">
+              An ESP32 environmental station that reads rainfall, temperature, humidity, and PM2.5, then sends scheduled
+              readings and rain-event summaries to Google Sheets.
+            </p>
+            <ul>
+              <li data-i18n="project.envi.1">SHT31, PMS sensor, rain gauge, Wi-Fi, HTTP, Google Apps Script endpoint</li>
+              <li data-i18n="project.envi.2">Rain timeout logic, intensity calculation, and periodic telemetry</li>
+              <li data-i18n="project.envi.3">CAD and enclosure work around smart farm and sensor hardware</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <span class="tag">React + MQTT</span>
+              <span class="status" data-i18n="status.planned">Platform build</span>
+            </div>
+            <h3>IoT Platform</h3>
+            <p data-i18n="project.platform">
+              A hybrid ThingsBoard-backed IoT platform with custom React web, React Native mobile, shared TypeScript API
+              clients, MQTT telemetry, REST, and WebSocket plans.
+            </p>
+            <ul>
+              <li data-i18n="project.platform.1">Monorepo with pnpm, Turborepo, Vite, React, React Native</li>
+              <li data-i18n="project.platform.2">ESP32-C3, DHT22, relay control, telemetry and RPC concept</li>
+              <li data-i18n="project.platform.3">Premium dashboard direction on top of ThingsBoard CE</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="systems">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="systems.eyebrow">System strengths</p>
+          <h2 data-i18n="systems.title">Where the work compounds</h2>
+        </div>
+        <div class="capability-grid">
+          <div class="capability">
+            <span>01</span>
+            <h3 data-i18n="cap.ai.title">AI product workflows</h3>
+            <p data-i18n="cap.ai.text">Receipt OCR, AI extraction, optional LLM analysis, draft generation, and review gates that keep humans in control.</p>
+          </div>
+          <div class="capability">
+            <span>02</span>
+            <h3 data-i18n="cap.iot.title">IoT and robotics mindset</h3>
+            <p data-i18n="cap.iot.text">Firmware, sensors, MQTT concepts, CAD assemblies, enclosures, environmental telemetry, and physical-system debugging.</p>
+          </div>
+          <div class="capability">
+            <span>03</span>
+            <h3 data-i18n="cap.cloud.title">Deployable cloud architecture</h3>
+            <p data-i18n="cap.cloud.text">Cloudflare Pages, Workers, Functions, D1, R2, GitHub Pages, VPS deployment, Docker, and PostgreSQL persistence.</p>
+          </div>
+          <div class="capability">
+            <span>04</span>
+            <h3 data-i18n="cap.biz.title">Business automation</h3>
+            <p data-i18n="cap.biz.text">Thai document workflows, freelance accounting details, personal finance UX, safety policies, and operational reporting.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div>
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.title">Engineer now, entrepreneur next.</h2>
+        </div>
+        <p data-i18n="about.text">
+          I like building systems that connect software with real-world operations: sensors to dashboards, chat apps to
+          finance workflows, and documents to business process. My next direction is turning this engineering range into
+          focused products that solve practical problems for Thai freelancers, small businesses, and technical teams.
+        </p>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Open to product, automation, AI, IoT, and robotics work.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://github.com/Pipatsassana5" data-i18n="contact.github">GitHub</a>
+          <a class="button secondary" href="mailto:your-email@example.com" data-i18n="contact.email">Email placeholder</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span data-i18n="footer.source">Built from inspected local projects in C:\Work.</span>
+      <span>2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
