@@ -582,8 +582,27 @@ h3 {
 }
 
 .media-tile.video::after {
-  border-left-width: 12px;
-  transform: skewX(-8deg);
+  background: rgba(17, 24, 39, 0.78);
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  clip-path: polygon(34% 22%, 34% 78%, 78% 50%);
+  height: 38px;
+  opacity: 1;
+  width: 38px;
+}
+
+.media-tile.video {
+  background: var(--panel);
+  min-height: 220px;
+  padding: 10px;
+}
+
+.media-tile.video img {
+  aspect-ratio: 16 / 9;
+  background: #d8d3c7;
+  display: block;
+  margin-bottom: 10px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .media-tile span {
@@ -593,7 +612,7 @@ h3 {
 }
 
 .media-tile strong {
-  font-size: clamp(0.9rem, 1.4vw, 1.15rem);
+  font-size: clamp(0.86rem, 1.1vw, 1.05rem);
   overflow-wrap: anywhere;
 }
 

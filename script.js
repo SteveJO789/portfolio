@@ -55,8 +55,7 @@ const dictionary = {
     "work.cta.button": "Start on Fastwork",
     "archive.eyebrow": "Drive work archive",
     "archive.title": "Field photos and prototype videos from recent work.",
-    "archive.text":
-      "This Google Drive folder contains supporting media from hands-on work. JPG photos are embedded directly in this page, while full videos stay as Drive links to keep the portfolio fast.",
+    "archive.text": "This Google Drive folder contains supporting media from hands-on work.",
     "archive.folder": "Open Drive folder",
     "archive.stat.files": "image files embedded",
     "archive.stat.images": "JPG previews",
@@ -88,7 +87,7 @@ const dictionary = {
     "contact.github": "GitHub: SteveJO789",
     "contact.fastwork": "Fastwork: roymustang",
     "fastwork.badge": "Fastwork profile",
-    "fastwork.title": "roymustang, professional freelancer",
+    "fastwork.title": "pipat integration, professional freelancer",
     "fastwork.text":
       "The best place to start a paid project with me is Fastwork. My profile is set up for client conversations, scope discussion, hiring flow, and platform-backed work records.",
     "fastwork.stat.hires": "Hired on Fastwork",
@@ -148,8 +147,7 @@ const dictionary = {
     "work.cta.button": "เริ่มคุยงานบน Fastwork",
     "archive.eyebrow": "คลังผลงานจาก Drive",
     "archive.title": "รูปหน้างานและวิดีโอต้นแบบจากงานล่าสุด.",
-    "archive.text":
-      "โฟลเดอร์ Google Drive นี้มีสื่อประกอบจากงานลงมือจริง รูป JPG ถูกฝังไว้ในหน้านี้โดยตรง ส่วนวิดีโอเต็มยังเป็นลิงก์ Drive เพื่อให้ portfolio โหลดเร็ว",
+    "archive.text": "โฟลเดอร์ Google Drive นี้มีสื่อประกอบจากงานลงมือจริง",
     "archive.folder": "เปิดโฟลเดอร์ Drive",
     "archive.stat.files": "ไฟล์ภาพที่ฝังแล้ว",
     "archive.stat.images": "ภาพ JPG preview",
@@ -177,7 +175,7 @@ const dictionary = {
     "hero.fastwork": "\u0e08\u0e49\u0e32\u0e07\u0e07\u0e32\u0e19\u0e1c\u0e48\u0e32\u0e19 Fastwork",
     "hero.work": "\u0e14\u0e39 case studies",
     "fastwork.badge": "\u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c Fastwork",
-    "fastwork.title": "roymustang, \u0e1f\u0e23\u0e35\u0e41\u0e25\u0e19\u0e0b\u0e4c\u0e21\u0e37\u0e2d\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
+    "fastwork.title": "pipat integration, \u0e1f\u0e23\u0e35\u0e41\u0e25\u0e19\u0e0b\u0e4c\u0e21\u0e37\u0e2d\u0e2d\u0e32\u0e0a\u0e35\u0e1e",
     "fastwork.text":
       "\u0e0a\u0e48\u0e2d\u0e07\u0e17\u0e32\u0e07\u0e2b\u0e25\u0e31\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e40\u0e23\u0e34\u0e48\u0e21\u0e07\u0e32\u0e19\u0e08\u0e49\u0e32\u0e07\u0e04\u0e37\u0e2d Fastwork \u0e42\u0e1b\u0e23\u0e44\u0e1f\u0e25\u0e4c\u0e19\u0e35\u0e49\u0e40\u0e2b\u0e21\u0e32\u0e30\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e38\u0e22\u0e02\u0e2d\u0e1a\u0e40\u0e02\u0e15\u0e07\u0e32\u0e19 \u0e40\u0e23\u0e34\u0e48\u0e21\u0e02\u0e31\u0e49\u0e19\u0e15\u0e2d\u0e19\u0e08\u0e49\u0e32\u0e07 \u0e41\u0e25\u0e30\u0e40\u0e01\u0e47\u0e1a\u0e1b\u0e23\u0e30\u0e27\u0e31\u0e15\u0e34\u0e07\u0e32\u0e19\u0e1a\u0e19\u0e41\u0e1e\u0e25\u0e15\u0e1f\u0e2d\u0e23\u0e4c\u0e21",
     "fastwork.stat.hires": "\u0e08\u0e33\u0e19\u0e27\u0e19\u0e04\u0e23\u0e31\u0e49\u0e07\u0e17\u0e35\u0e48\u0e16\u0e39\u0e01\u0e08\u0e49\u0e32\u0e07\u0e1a\u0e19 Fastwork",
