@@ -31,6 +31,7 @@ const dictionary = {
     "project.fastbill.1": "Google Apps Script, Sheets, Drive, LINE Messaging API, LIFF",
     "project.fastbill.2": "Cloudflare Pages/Functions migration and Workers + D1/R2 rewrite path",
     "project.fastbill.3": "Jest and Node test coverage around validation and save flows",
+    "project.fastbill.qr": "Scan LINE QR to open FastBill",
     "project.redditbot":
       "A human-review dashboard for public-source research, opportunity scoring, risk checks, draft-only replies, and internal reports without automated posting or DMs.",
     "project.redditbot.1": "Next.js, TypeScript, Tailwind, Vitest, PostgreSQL server mode",
@@ -123,6 +124,7 @@ const dictionary = {
     "project.fastbill.1": "Google Apps Script, Sheets, Drive, LINE Messaging API, LIFF",
     "project.fastbill.2": "ย้าย LIFF ไป Cloudflare Pages/Functions และมีเส้นทาง rewrite ด้วย Workers + D1/R2",
     "project.fastbill.3": "มี Jest และ Node tests สำหรับ validation และ save flows",
+    "project.fastbill.qr": "สแกน QR บน LINE เพื่อเปิด FastBill",
     "project.redditbot":
       "Dashboard สำหรับ human review จาก public-source research มี opportunity scoring, risk checks, draft-only replies และ internal reports โดยไม่มี auto-post หรือ DM",
     "project.redditbot.1": "Next.js, TypeScript, Tailwind, Vitest, PostgreSQL server mode",
